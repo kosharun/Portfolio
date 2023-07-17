@@ -1,0 +1,37 @@
+@font-face {
+	font-family: HackFont;
+	src: url(C:\Users\KORISNIK\Desktop\Portarafolara\portfolio-app\src\hack.ttf);
+}
+
+h1 {
+	font-family: HackFont;
+	color: #073b3f;
+	text-align: center;
+}
+
+.Cards {
+	gap: 2%;
+}
+
+.Card {
+	margin-bottom: 3%;
+	background-color: black;
+}
+
+.Content {
+    padding: 3%;
+    width: 90%;
+}
+
+@media (min-width: 1000px) {
+    .Cards {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+	.Cards {
+		margin-top: 20px;
+		flex-direction: column;
+	}
+}

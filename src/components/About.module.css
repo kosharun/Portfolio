@@ -1,0 +1,85 @@
+/* About.module.css */
+@font-face {
+	font-family: HackFont;
+	src: url(C:\Users\KORISNIK\Desktop\Portarafolara\portfolio-app\src\hack.ttf);
+}
+
+.aboutSection {
+	padding: 80px 0;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	position: relative; /* Added */
+}
+
+.aboutContent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.aboutText p {
+	margin: 2rem auto;
+	max-width: 60ch;
+	border: 8px solid #084709;
+	color: #fff;
+	background-color: #345553;
+	padding: 2ch;
+	position: relative;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	box-shadow: 0 0 80px rgba(0, 0, 0, 0.6);
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .aboutText p:hover {
+	transform: scale(1.05);
+  }
+  
+
+.aboutText p:before {
+	content: "";
+	position: absolute;
+	right: -28px;
+	top: calc(50% - 14px);
+	width: 24px;
+	height: 28px;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 28' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 0H0v8h12v4h4v4h-4v4H0v8h4v-4h8v-4h4v-4h8v-4h-8V8h-4V4H4V0z' fill='%230038FF'/%3E%3Cpath fill='%23161616' d='M0 8h4v12H0z'/%3E%3C/svg%3E");
+}
+
+.aboutText h2 {
+	margin-bottom: -5px;
+	font-family: HackFont;
+	color: #10a8b3;
+
+}
+
+@media screen and (min-width: 1000px) {
+	.aboutText h2 {
+		font-size: 90px;
+	}
+	.aboutText {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 10%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.aboutText p {
+		padding: 10%;
+	}
+	.aboutText h2 {
+		font-size: 40px;
+	}
+	.aboutText {
+		width: 80vw;
+	}
+	.aboutContent .aboutSection .aboutText {
+		overflow-x: hidden;
+	}
+}

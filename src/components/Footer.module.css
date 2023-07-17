@@ -1,0 +1,13 @@
+.logo {
+	width: 80%;
+	height: 80%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.footer {
+	border-radius: 30px;
+    border: solid rgb(144, 245, 144);
+    padding: 1%;
+    width: 100%;
+}

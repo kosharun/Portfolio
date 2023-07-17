@@ -1,0 +1,93 @@
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@font-face {
+	font-family: HackFont;
+	src: url(C:\Users\KORISNIK\Desktop\Portarafolara\portfolio-app\src\hack.ttf);
+}
+
+.text h1 {
+	margin-left: 30%;
+	color: #37e35f;
+	animation: typing 1.5s steps(20) 1s both;
+	font-family: HackFont;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: -8%;
+}
+
+.text p {
+	margin-left: 30%;
+	margin-bottom: 40%;
+	color: #ffffff;
+	animation: typing 2s steps(20) 2.5s both;
+	font-family: "Courier New", Courier, monospace;
+	margin-top: 5%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.topSection {
+	height: 90vh;
+}
+
+@media screen and (min-width: 1000px) {
+	.text h1 {
+		font-size: 100px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.text {
+		padding: 10px;
+		margin-bottom: 40%;
+		font-size: 14px;
+	}
+	.text h1 {
+		margin-left: 0%;
+		font-size: 40px;
+		margin-bottom: 2px;
+	}
+
+	.text p {
+		margin-left: 0%;
+		margin-bottom: 170%;
+		font-family: "Times New Roman", Times, serif;
+	}
+	.aboutImage {
+		position: absolute;
+		bottom: 10%;
+		right: 75%;
+		transform: translateX(50%); /* Added */
+	}
+	.aboutImage img {
+		min-width: 300%;
+		height: 10%;
+		padding-top: 5%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.text {
+		padding: 5px;
+		margin-bottom: 10%;
+		font-size: 12px;
+	}
+}
+
+.aboutImage {
+	position: absolute; /* Added */
+}
+
+.aboutImage img {
+	max-width: 40%;
+	max-height: 100%;
+	padding-top: 5%;
+}
