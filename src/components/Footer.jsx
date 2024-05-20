@@ -6,7 +6,7 @@ const Footer = () => {
 	return (
 		<div className={`container ${styles.footerContainer}`}>
 			<footer
-				className={`bg-dark text-center text-lg-start text-white ${styles.footer}`}
+				className={`text-center text-lg-start text-white ${styles.footer}`}
 			>
 				<div className="col-lg-3 col-md-6 mb-4 mb-md-0 mx-auto">
 					<div>
@@ -19,7 +19,7 @@ const Footer = () => {
 						/>
 					</div>
 					<p className="text-center">
-						This portfolio was made using ReactJS Framework.
+						KOS HARUN
 					</p>
 					<ul
 						className={`list-unstyled d-flex flex-row justify-content-center ${styles.socialIcons}`}
@@ -73,12 +73,6 @@ const Footer = () => {
 							<p>
 								<i className="fas fa-envelope pe-2 mb-0"></i>
 								kosharun04@gmail.com
-							</p>
-						</li>
-						<li>
-							<p>
-								<i className="fas fa-phone pe-2"></i>
-								.........
 							</p>
 						</li>
 					</ul>

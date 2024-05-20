@@ -5,7 +5,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: linear-gradient(to bottom, #000000, #062403);
+  background: linear-gradient(to bottom, #888585, #20202e);
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -32,6 +32,7 @@ section {
 @media screen and (max-width: 768px) {
   nav{
     width: 20%;
+    padding: 20px;
   }
   section {
     width: 80%;
@@ -43,18 +44,4 @@ section {
     }
 }
 
-#top {
-  background: linear-gradient(to bottom, #063101, #000000);
-}
 
-#about {
-  background: linear-gradient(to bottom, #000000, #6ea192);
-}
-
-#projects {
-  background: linear-gradient(to bottom, #6ea192, #000000 );
-}
-
-#contact {
-  background: linear-gradient(to bottom, #000000, #ffffff);
-}

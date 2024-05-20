@@ -1,6 +1,6 @@
 @font-face {
 	font-family: HackFont;
-	src: url(C:\Users\KORISNIK\Desktop\Portarafolara\portfolio-app\src\hack.ttf);
+	src: url(/C:/Users/KORISNIK/Desktop/Programmers/Projects/Portarafolara/portfolio-app/src/hack.ttf);
 }
 
 h1 {
@@ -16,6 +16,7 @@ h1 {
 .Card {
 	margin-bottom: 3%;
 	background-color: black;
+	width: 30%;
 }
 
 .Content {
@@ -27,11 +28,20 @@ h1 {
     .Cards {
         margin-top: 100px;
     }
+
+	.Card {
+		width: 100%;
+	}
 }
 
 @media (max-width: 767px) {
 	.Cards {
 		margin-top: 20px;
 		flex-direction: column;
+	}
+
+	.Card {
+		width: 100%;
+		margin-bottom: 10%;
 	}
 }

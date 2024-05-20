@@ -7,16 +7,11 @@
 	}
 }
 
-@font-face {
-	font-family: HackFont;
-	src: url(C:\Users\KORISNIK\Desktop\Portarafolara\portfolio-app\src\hack.ttf);
-}
-
 .text h1 {
 	margin-left: 30%;
-	color: #37e35f;
+	color: #0c2d14;
 	animation: typing 1.5s steps(20) 1s both;
-	font-family: HackFont;
+	font-family: 'HackFont', monospace; /* Updated font-family */
 	overflow: hidden;
 	white-space: nowrap;
 	margin-bottom: -8%;
@@ -25,9 +20,9 @@
 .text p {
 	margin-left: 30%;
 	margin-bottom: 40%;
-	color: #ffffff;
+	color: #3d4d40;
 	animation: typing 2s steps(20) 2.5s both;
-	font-family: "Courier New", Courier, monospace;
+	font-family: 'Courier New', Courier, monospace; /* Updated font-family */
 	margin-top: 5%;
 	overflow: hidden;
 	white-space: nowrap;
@@ -59,7 +54,7 @@
 	.text p {
 		margin-left: 0%;
 		margin-bottom: 170%;
-		font-family: "Times New Roman", Times, serif;
+		font-family: 'Times New Roman', Times, serif; /* Updated font-family */
 	}
 	.aboutImage {
 		position: absolute;

@@ -1,7 +1,7 @@
 /* About.module.css */
 @font-face {
 	font-family: HackFont;
-	src: url(C:\Users\KORISNIK\Desktop\Portarafolara\portfolio-app\src\hack.ttf);
+	src: url(/C:/Users/KORISNIK/Desktop/Programmers/Projects/Portarafolara/portfolio-app/src/hack.ttf);
 }
 
 .aboutSection {
@@ -24,9 +24,9 @@
 .aboutText p {
 	margin: 2rem auto;
 	max-width: 60ch;
-	border: 8px solid #084709;
+	border: 8px solid #011e02;
 	color: #fff;
-	background-color: #345553;
+	background-color: #000000;
 	padding: 2ch;
 	position: relative;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -53,7 +53,7 @@
 .aboutText h2 {
 	margin-bottom: -5px;
 	font-family: HackFont;
-	color: #10a8b3;
+	color: #02191b;
 
 }
 
